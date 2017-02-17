@@ -1,0 +1,31 @@
+{
+  "name": "FEM-Node-AWS-Production",
+  "version": "0.0.1",
+  "description": "build, test, deploy, and scale Node.js web applications in production on Amazon Web Services",
+  "main": "index.js",
+  "bin": {
+    "FEM-Node-AWS-Production": "server.js"
+  },
+  "scripts": {
+    "start": "node bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hafeez-syed/node-aws-production.git"
+  },
+  "keywords": [
+    "Node.js,",
+    "AWS",
+    "PostgreSQL"
+  ],
+  "author": "Hafeez Syed <feeziman007@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hafeez-syed/node-aws-production/issues"
+  },
+  "homepage": "https://github.com/hafeez-syed/node-aws-production#readme",
+  "dependencies": {
+    "socket.io": "^1.7.2"
+  }
+}
